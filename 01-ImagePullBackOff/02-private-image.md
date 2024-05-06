@@ -17,3 +17,8 @@ kubectl create secret docker-registry  \
   --docker-password=$(aws ecr get-login-password) \
   --namespace=default
 ```
+
+
+
+My secret
+kubectl create secret docker-registry demo --docker-server=https://index.docker.io/v1/ --docker-username=chaitanya795 --docker-password=chaitanya@9 --docker-email=chaitanyareddycharla123@gmail.com -n chaitanya
